@@ -33,13 +33,12 @@ install_github("nandadorea/vetsyn")
 require(vetsyn)
 
 
+source("Functions.r",local=TRUE,encoding="native.enc")
+source("Definitions.r",local=TRUE,encoding="native.enc")
+
+
 #rm(list=ls())
 setwd("I:\\ESS\\SVASyndromicSurveillanceSystem")
-
-
-source("r_files\\Functions_2.0.r",local=TRUE,encoding="native.enc")
-source("r_files\\Definitions_2.0.r",local=TRUE,encoding="native.enc")
-
 
 
 # new data in ----
